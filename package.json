@@ -6,6 +6,7 @@
   "scripts": {
     "postinstall": "node ./node_modules/octopus/scripts/setEnv --file=../../../env.json \"npm run do-install\"",
     "do-install": "node ./node_modules/octopus/scripts/ensureFreezeState.js && node ./node_modules/octopus/scripts/run",
+    "clean": "bash bin/clean.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

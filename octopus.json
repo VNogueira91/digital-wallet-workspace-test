@@ -9,6 +9,10 @@
           "type": "smartClone",
           "target": ".",
           "collectLog": false
+        },
+        {
+          "type": "execute",
+          "cmd": "cd privatesky && npm install"
         }
       ]
     }
