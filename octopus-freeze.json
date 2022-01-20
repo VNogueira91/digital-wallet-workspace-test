@@ -40,6 +40,30 @@
             "cmd": "cd cardinal && npm run build"
           }
         ]
+      },
+      {
+        "name": "webcardinal",
+        "src": "https://github.com/webcardinal/webcardinal-bundler",
+        "actions": [
+          {
+            "type": "smartClone",
+            "target": ".",
+            "collectLog": false,
+            "commit": "44036cf46b1209529c642dc7b3b4e7f856908d8b"
+          },
+          {
+            "type": "execute",
+            "cmd": "cd webcardinal && npm install"
+          },
+          {
+            "type": "execute",
+            "cmd": "cd webcardinal && npm run bundle-minimal"
+          },
+          {
+            "type": "execute",
+            "cmd": "cd webcardinal npm run dev"
+          }
+        ]
       }
     ]
   }
