@@ -10,10 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/VNogueira91/digital-wallet-workspace.git"
   },
-  "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0"
-  },
   "author": "VítorNogueira",
   "license": "MIT",
   "bugs": {
