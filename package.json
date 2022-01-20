@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/VNogueira91/digital-wallet-workspace#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+    "octopus": "git+https://github.com/PrivateSky/octopus.git"
+  },
+  "dependencies": {}
 }
