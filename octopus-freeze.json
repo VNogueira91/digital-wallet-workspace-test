@@ -1,0 +1,17 @@
+{
+    "workDir": ".",
+    "privatesky-dependencies": [
+      {
+        "name": "privatesky",
+        "src": "http://github.com/privatesky/psk-release.git",
+        "actions": [
+          {
+            "type": "smartClone",
+            "target": ".",
+            "collectLog": false,
+            "commit": "b97e3d071de8357a8105b88683b2cd2ef7a25fab"
+          }
+        ]
+      }
+    ]
+  }
