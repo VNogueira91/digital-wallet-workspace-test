@@ -1,6 +1,6 @@
 {
   "workDir": ".",
-  "privatesky-dependencies": [
+  "dependencies": [
     {
       "name": "privatesky",
       "src": "http://github.com/privatesky/psk-release.git",
